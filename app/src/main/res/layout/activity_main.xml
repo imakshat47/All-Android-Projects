@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#03122C"
+        android:text=" Android "
+        android:textColor="#EB7D09"
+        android:textSize="33dp" />
+
+    <Button
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#670FA7"
+        android:text="  Java "
+        android:textColor="#60EB09"
+        android:textSize="33dp" />
+
+    <Button
+        android:id="@+id/java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#00ff00"
+        android:text="Python"
+        android:textAllCaps="false"
+        android:textColor="#ff0000"
+        android:textSize="33dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@id/java"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/ic_launcher"
+        />
+
+</RelativeLayout>
